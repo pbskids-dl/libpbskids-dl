@@ -23,3 +23,8 @@ classifiers = [
 [project.urls]
 Homepage = "https://github.com/pbskids-dl/libpbskids-dl"
 Issues = "https://github.com/pbskids-dl/libpbskids-dl/issues"
+
+[project.dependencies]
+urllib3 = ">=2.2.2"
+beautifulsoup4 = ">=4.12.3"
+lxml = ">=5.2.2"
