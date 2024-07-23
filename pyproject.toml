@@ -9,7 +9,7 @@ maintainers = [
   { name="NexusSfan", email="nexussfan@duck.com" },
   { name="Kiavash At Home", email="kiavash-at-home@users.noreply.github.com"},
 ]
-description = "Library"
+description = "Library pbskids-dl"
 readme = "README.md"
 requires-python = ">=3.8"
 classifiers = [
@@ -22,4 +22,4 @@ classifiers = [
 
 [project.urls]
 Homepage = "https://github.com/pbskids-dl/libpbskids-dl"
-Issues = "https://github.com/pbskids-dl/libpbskids-dl"
+Issues = "https://github.com/pbskids-dl/libpbskids-dl/issues"
