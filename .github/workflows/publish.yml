@@ -20,6 +20,6 @@ jobs:
     - name: Init tools
       uses: actions/checkout@v4.1.7
     - name: build
-      uses: ./.github/workflows/build.yaml
+      uses: ./.github/workflows
     - name: Publish package distributions to PyPI
       uses: pypa/gh-action-pypi-publish@v1.9.0
