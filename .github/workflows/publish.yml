@@ -17,7 +17,14 @@ jobs:
     permissions:
       id-token: write  # IMPORTANT: this permission is mandatory for trusted publishing
     steps:
-    - name: Init tools
-      uses: actions/checkout@v4.1.7
+    - uses: actions/checkout@v4.1.7
+    - uses: actions/setup-python@v5.1.1
+      with:
+        python-version: '3.11'
+    - name: Create Package
+      shell: bash
+      run: |
+        pip install build
+        python3 -m build
     - name: Publish package distributions to PyPI
       uses: pypa/gh-action-pypi-publish@v1.9.0
