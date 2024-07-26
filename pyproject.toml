@@ -7,7 +7,7 @@ name = "libpbskids-dl"
 version = "3.2.1"
 maintainers = [
   { name="NexusSfan", email="nexussfan@duck.com" },
-  { name="Kiavash At Home", email="kiavash-at-home@users.noreply.github.com"},
+  { name="@kiavash-at-home"},
 ]
 description = "Library pbskids-dl"
 readme = "README.md"
