@@ -6,8 +6,7 @@ build-backend = "hatchling.build"
 name = "libpbskids-dl"
 version = "3.2.1"
 maintainers = [
-  { name="NexusSfan", email="nexussfan@duck.com" },
-  { name="@kiavash-at-home"},
+  { name="NexusSfan", email="nexussfan@duck.com" }
 ]
 description = "Library pbskids-dl"
 readme = "README.md"
